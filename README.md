@@ -10,7 +10,14 @@ This application have two features:
 
 ## Installation
 
+
+
 After download/ clone this repository, change the console/terminal  directory to this application folder. 
+
+
+> Open Xampp and Start "Apache" & "MySQL" service. 
+> Then create an database name as you named in your .env file. 
+
 - Run migration first
 ```bash
 php artisan migrate
@@ -18,8 +25,7 @@ php artisan migrate
  
 
 ## Run 
-
-#### Run this command
+> Run this command
 
 ```bash
 php artisan serve
